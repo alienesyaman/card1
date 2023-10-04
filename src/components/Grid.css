@@ -1,0 +1,123 @@
+body{
+background-color: rgba(128, 128, 128, 0.338);
+
+}
+
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    grid-template-rows: 350px 350px;
+    gap: 10px;
+    padding: 10px;
+    
+  }
+  
+  .grid-container > div {
+    background-color: white;
+    border-radius:20px ;
+    font-weight: 600;
+    width: 95%;
+  }
+
+  p{
+    padding-left: 10px;
+  }
+
+
+  .line{
+    border-top:1px solid  rgba(0, 0, 0, 0.155);
+    width: 85%;
+    margin-left: 15px;
+    ;
+    
+  }
+
+  img{
+    width: 100%;
+  }
+
+
+  .bottom-top{
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    font-weight: 400;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgba(0, 0, 0, 0.708);;
+  }
+
+  .bottom-bottom{
+
+    display: flex;
+    justify-content: space-between;
+    font-size: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+
+
+  @media screen and (min-width: 1580px) and (max-width: 1960px) {
+
+    .grid-container {
+
+        grid-template-rows: 400px 400px;
+      
+        
+      }
+      
+
+  }
+
+
+
+
+
+
+  @media screen and (min-width: 840px) and (max-width: 1100px) {
+
+    .grid-container {
+
+        grid-template-rows: 300px 300px;
+      
+        
+      }
+      
+
+  }
+
+
+
+
+
+  @media screen and (max-width: 840px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows: 320px 320px;
+        gap: 10px;
+        padding: 10px;
+        
+      }
+
+    
+  }
+
+
+
+  @media screen and (max-width: 530px) {
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: 330px 330px;
+        gap: 10px;
+        padding: 10px;
+        
+      }
+
+    
+  }
